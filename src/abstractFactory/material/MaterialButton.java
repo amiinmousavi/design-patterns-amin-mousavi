@@ -1,6 +1,6 @@
-package abstractFactoryMethod.material;
+package abstractFactory.material;
 
-import abstractFactoryMethod.Button;
+import abstractFactory.Button;
 
 public class MaterialButton implements Button {
     @Override

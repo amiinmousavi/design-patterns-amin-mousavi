@@ -1,6 +1,6 @@
-package abstractFactoryMethod.ant;
+package abstractFactory.ant;
 
-import abstractFactoryMethod.TextBox;
+import abstractFactory.TextBox;
 
 public class AntTextBox implements TextBox {
     @Override

@@ -1,7 +1,7 @@
-package factoryMethod.matcha;
+package factory.matcha;
 
-import factoryMethod.Controller;
-import factoryMethod.MatchaViewEngine;
+import factory.Controller;
+import factory.MatchaViewEngine;
 
 import java.util.HashMap;
 import java.util.Map;

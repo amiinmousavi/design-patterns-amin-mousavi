@@ -1,4 +1,4 @@
-package abstractFactoryMethod.material;
+package abstractFactory.material;
 
 public enum Theme {
     MATERIAL,

@@ -1,4 +1,4 @@
-package factoryMethod;
+package factory;
 
 import java.util.Map;
 

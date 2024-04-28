@@ -1,6 +1,6 @@
-package abstractFactoryMethod.ant;
+package abstractFactory.ant;
 
-import abstractFactoryMethod.Button;
+import abstractFactory.Button;
 
 public class AntButton implements Button {
 

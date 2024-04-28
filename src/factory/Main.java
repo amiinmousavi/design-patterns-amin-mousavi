@@ -1,4 +1,4 @@
-package factoryMethod;
+package factory;
 
 public class Main {
 }

@@ -1,4 +1,4 @@
-package abstractFactoryMethod.app;
+package abstractFactory.app;
 
 import abstractFactoryMethod.ant.AntButton;
 import abstractFactoryMethod.ant.AntTextBox;

@@ -1,6 +1,6 @@
-package abstractFactoryMethod.material;
+package abstractFactory.material;
 
-import abstractFactoryMethod.TextBox;
+import abstractFactory.TextBox;
 
 public class MaterialTextBox implements TextBox {
     @Override
