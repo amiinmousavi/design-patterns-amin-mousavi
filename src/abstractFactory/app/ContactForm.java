@@ -1,10 +1,10 @@
 package abstractFactory.app;
 
-import abstractFactoryMethod.ant.AntButton;
-import abstractFactoryMethod.ant.AntTextBox;
-import abstractFactoryMethod.material.MaterialButton;
-import abstractFactoryMethod.material.MaterialTextBox;
-import abstractFactoryMethod.material.Theme;
+import abstractFactory.ant.AntButton;
+import abstractFactory.ant.AntTextBox;
+import abstractFactory.material.MaterialButton;
+import abstractFactory.material.MaterialTextBox;
+import abstractFactory.material.Theme;
 
 public class ContactForm {
     public void render(Theme theme) {
