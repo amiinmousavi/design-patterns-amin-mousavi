@@ -1,29 +1,22 @@
 package strategy;
 
+import strategy.compressor.Compressor;
+import strategy.filter.Filter;
+
 public class ImageStorage {
-    private String compressor;
-    private String filter;
+//    private Compressor compressor;
+//    private Filter filter;
+//
+//    public ImageStorage(Compressor compressor, Filter filter) {
+//        this.compressor = compressor;
+//        this.filter = filter;
+//    }
 
-    public ImageStorage(String compressor, String filter) {
-        this.compressor = compressor;
-        this.filter = filter;
-    }
-
-    public void store(String fileName) {
+    public void store(String fileName, Compressor compressor, Filter filter) {
         // JPEG, PNG, ...
-        // B&W, High Contrast, ...
-        if (compressor == "jpeg") {
-            System.out.println("Compressing using JPEG");
-        }
-        else if (compressor == "png") {
-            System.out.println("Compressing using PNG");
-        }
+        compressor.compress();
 
-        if (filter == "b&w") {
-            System.out.println("Applying B&W filter");
-        }
-        else if (filter =="high-contrast") {
-            System.out.println("Applying high contrast filter");
-        }
+        // B&W, High Contrast, ...
+        filter.apply();
     }
 }
