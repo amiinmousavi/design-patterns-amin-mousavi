@@ -1,4 +1,4 @@
-package command;
+package command.regularCommand;
 
 public class Button {
     private String label;
