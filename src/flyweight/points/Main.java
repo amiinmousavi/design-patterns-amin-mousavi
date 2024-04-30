@@ -1,4 +1,4 @@
-package flyweight;
+package flyweight.points;
 
 public class Main {
     public static void main(String[] args) {

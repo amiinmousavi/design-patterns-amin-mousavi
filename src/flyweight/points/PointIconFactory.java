@@ -1,4 +1,4 @@
-package flyweight;
+package flyweight.points;
 
 import java.util.HashMap;
 import java.util.Map;

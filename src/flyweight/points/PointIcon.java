@@ -1,4 +1,4 @@
-package flyweight;
+package flyweight.points;
 
 public class PointIcon {
     private final PointType type;

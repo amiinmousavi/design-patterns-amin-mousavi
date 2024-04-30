@@ -1,7 +1,4 @@
-package iterator;
-
-import java.util.ArrayList;
-import java.util.List;
+package iterator.browseHistory;
 
 public class BrowseHistory {
     private String[] urls = new String[10];

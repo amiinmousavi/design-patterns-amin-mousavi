@@ -1,4 +1,4 @@
-package iterator;
+package iterator.browseHistory;
 
 public interface Iterator<T> {
     Boolean hasNext();

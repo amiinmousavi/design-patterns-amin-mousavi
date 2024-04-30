@@ -1,4 +1,4 @@
-package iterator;
+package iterator.browseHistory;
 
 public class Main {
     public static void main(String[] args) {

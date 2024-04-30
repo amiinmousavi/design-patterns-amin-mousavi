@@ -1,4 +1,4 @@
-package flyweight;
+package flyweight.points;
 
 public class Point {
     private int x; // 4 bytes
