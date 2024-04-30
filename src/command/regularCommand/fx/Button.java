@@ -1,14 +1,15 @@
-package command;
+package command.regularCommand.fx;
 
 public class Button {
     private String label;
+    private Command command;
 
-    public Button(String label) {
-        this.label = label;
+    public Button(Command command) {
+        this.command = command;
     }
 
     public void click() {
-
+        command.execute();
     }
     public String getLabel() {
         return label;
