@@ -1,4 +1,4 @@
-package memento;
+package memento.editor;
 
 public class Editor {
     private String content;
