@@ -1,4 +1,4 @@
-package command.regularCommand.fx;
+package command.regularCommand.customerService.fx;
 
 public class Button {
     private String label;

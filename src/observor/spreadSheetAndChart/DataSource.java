@@ -1,4 +1,4 @@
-package observor;
+package observor.spreadSheetAndChart;
 
 public class DataSource {
     private int value;

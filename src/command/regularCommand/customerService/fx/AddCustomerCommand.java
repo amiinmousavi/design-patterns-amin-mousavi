@@ -1,6 +1,6 @@
-package command.regularCommand.fx;
+package command.regularCommand.customerService.fx;
 
-import command.regularCommand.CustomerService;
+import command.regularCommand.customerService.CustomerService;
 
 public class AddCustomerCommand implements Command{
     private CustomerService service;

@@ -1,4 +1,4 @@
-package command.regularCommand;
+package command.regularCommand.customerService;
 
 public class CustomerService {
     public void addCustomer() {

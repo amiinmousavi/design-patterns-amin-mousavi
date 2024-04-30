@@ -1,7 +1,7 @@
-package command.regularCommand;
+package command.regularCommand.customerService;
 
-import command.regularCommand.fx.AddCustomerCommand;
-import command.regularCommand.fx.Button;
+import command.regularCommand.customerService.fx.AddCustomerCommand;
+import command.regularCommand.customerService.fx.Button;
 
 public class Main {
     public static void main(String[] args) {
