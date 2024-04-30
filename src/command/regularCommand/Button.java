@@ -3,10 +3,6 @@ package command.regularCommand;
 public class Button {
     private String label;
 
-    public Button(String label) {
-        this.label = label;
-    }
-
     public void click() {
 
     }
