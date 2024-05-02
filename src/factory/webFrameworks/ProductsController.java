@@ -1,7 +1,6 @@
-package factory.matcha;
+package factory.webFrameworks;
 
-import factory.Controller;
-import factory.MatchaViewEngine;
+import factory.webFrameworks.matcha.Controller;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -12,6 +11,6 @@ public class ProductsController extends Controller {
         Map<String, Object> context = new HashMap<>();
 
         // context.put(products)
-        render("products.html", context, new MatchaViewEngine());
+        render("products.html", context);
     }
 }
